@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<link rel="icon" href="media/images/profile.jpg">
+	<title>Mi rincon del internet: Eduardo Sandoval</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="styling/styles.css">	<!-- Styling -->
+	<script src="scripts/main.js"></script>		<!-- Client side code -->
+</head>
+
+<body>
+	<div class="header">
+		<h1>Mi rincon del internet</h1>
+		<p>Aqui comparto un poco de lo que me interesa y lo que hago.</p>
+	</div>
+
+	<div class="navbar" id="navbar">
+		<a href="#acerca-de-mi">Acerca de mi</a>
+		<a href="#sistemas">Sistemas</a>
+		<a href="#proyectos">Proyectos</a>
+		<a href="#temblor" class="right" onclick="shake_all()">Temblor!</a>
+		<a href="#calma" class="right" onclick="shake_off()">Calma!</a>
+	</div>
+
+	<div class="row">
+		<div class="side">
+			<img src="media/images/profile.jpg" alt="Eduardo Sandoval" width=95%
+				 style="border-radius: 10px; border: 1px solid black;">
+			<div class="card">
+				Esta es una barra de menu.
+			</div>
+			<div class="card">
+				Otra barra de menu.
+			</div>
+			<div class="card">
+				Ultima barra de menu.
+			</div>
+		</div>
+		<div class="main">
+			<video width=95% height=95% controls>
+				<source src="media/videos/screencast.mp4" type="video/mp4">
+				Tu navegador no tiene soporte para el tag de video. :(
+			</video>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h2>Eduardo Sandoval</h2>
+	</div>
+</body>
+
+</html>
